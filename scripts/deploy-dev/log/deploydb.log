@@ -1,0 +1,12 @@
+psql:../db/tbl_versions.sql:10: NOTICE:  index "idx_versions_created" does not exist, skipping
+psql:../db/tbl_versions.sql:13: NOTICE:  trigger "tr_versions_ins0" for relation "versions" does not exist, skipping
+psql:../db/0/1/0/tbl_users.sql:13: NOTICE:  index "idx_users_audit" does not exist, skipping
+psql:../db/0/1/0/tbl_users.sql:16: NOTICE:  trigger "tr_users_ins0" for relation "users" does not exist, skipping
+psql:../db/0/2/0/alter_users.sql:3: ERROR:  syntax error at or near "jsonb"
+LINE 2: ALTER TABLE IF EXISTS users ALTER COLUMN profile jsonb;
+                                                         ^
+psql:../db/0/2/0/alter_users.sql:4: NOTICE:  relation "fbusers" does not exist, skipping
+psql:../db/0/2/0/tbl_privileged.sql:13: NOTICE:  index "idx_privileged_createdby" does not exist, skipping
+psql:../db/0/2/0/tbl_privileged.sql:16: NOTICE:  index "idx_privileged_audit" does not exist, skipping
+psql:../db/0/2/0/tbl_privileged.sql:19: NOTICE:  trigger "tr_privileged_insert0" for relation "privileged" does not exist, skipping
+psql:../db/0/2/0/tbl_privileged.sql:24: NOTICE:  trigger "tr_privileged_update" for relation "privileged" does not exist, skipping

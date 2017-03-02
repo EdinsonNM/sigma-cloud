@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/quehacemos":{"create":true,"mount_options":["dmode=775","fmode=777"],"guestpath":"/home/vagrant/quehacemos","hostpath":"/home/rein/git/rebelstackio/events-api","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/rein/git/rebelstackio/events-api/vagrant","disabled":false,"__vagrantfile":true}}}

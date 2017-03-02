@@ -1,0 +1,14 @@
+{% extends "base.nunj" %}
+
+{% block title %}Oops - not found{% endblock %}
+
+{% block header %}
+<h1>Oops, the resource you're looking for is not here</h1>
+{% endblock %}
+
+{% block main %}
+
+<!-- send the server the http referrer? -->
+<a href="/">Click here to go to our main home page</a>
+
+{% endblock %}
